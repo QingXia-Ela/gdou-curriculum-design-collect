@@ -1,0 +1,5 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_ADD_SUB"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder8b1.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder8b1.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder8b1_syn.v"]

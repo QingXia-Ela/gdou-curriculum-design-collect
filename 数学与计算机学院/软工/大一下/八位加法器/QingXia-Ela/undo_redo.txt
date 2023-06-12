@@ -1,0 +1,105 @@
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Move
+	     3.	Move
+	     4.	Properties
+	     5.	Properties
+	     6.	Properties
+	     7.	Properties
+	     8.	Properties
+	     9.	Properties
+	    10.	Insert Bus
+	    11.	Insert Bus
+	    12.	Delete
+	    13.	Insert Bus
+	    14.	Delete
+	    15.	Insert Bus
+	    16.	Delete
+	    17.	Delete
+	    18.	Delete
+	    19.	Insert Bus
+	    20.	Insert Node
+	    21.	Delete
+	    22.	Delete
+	    23.	Properties
+	    24.	Properties
+	    25.	Properties
+	    26.	Properties
+	    27.	Delete
+	    28.	Insert Node
+	    29.	Delete
+	    30.	Move
+	    31.	Move
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Insert Node
+	    36.	Insert Node
+	    37.	Insert Node
+	    38.	Insert Node
+	    39.	Insert Node
+	    40.	Insert Node
+	    41.	Insert Node
+	    42.	Insert Node
+	    43.	Insert Node
+	    44.	Insert Node
+	    45.	Insert Node
+	    46.	Delete
+	    47.	Delete
+	    48.	Delete
+	    49.	Insert Node
+	    50.	Insert Node
+	    51.	Insert Node
+	    52.	Insert Node
+	    53.	Insert Node
+	    54.	Insert Node
+	    55.	Insert Node
+	    56.	Insert Node
+	    57.	Insert Node
+	    58.	Insert Node
+	    59.	Insert Node
+	    60.	Properties
+	    61.	Properties
+	    62.	Insert Node
+	    63.	Insert Node
+	    64.	Insert Node
+	    65.	Insert Node
+	    66.	Insert Node
+	    67.	Insert Node
+	    68.	Move
+	    69.	Move
+	    70.	Properties
+	    71.	Insert Node
+	    72.	Insert Node
+	    73.	Insert Node
+	    74.	Insert Node
+	    75.	Insert Node
+	    76.	Insert Node
+	    77.	Insert Node
+	    78.	Insert Node
+	    79.	Insert Node
+	    80.	Insert Node
+	    81.	Insert Node
+	    82.	Insert Node
+	    83.	Move
+	    84.	Move
+	    85.	Properties
+	    86.	Delete
+	    87.	Delete
+	    88.	Move
+	    89.	Delete
+	    90.	Move
+	    91.	Delete
+	    92.	Delete
+	    93.	Move
+	    94.	Properties
+	    95.	Properties
+	    96.	Properties
+	    97.	Move
+	    98.	Move
+	    99.	Move
+	   100.	Move
+
+
