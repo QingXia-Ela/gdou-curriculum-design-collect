@@ -1,0 +1,70 @@
+GED
+
+	Undo Commands
+	     1.	Insert Node
+	     2.	Delete
+	     3.	Insert Node
+	     4.	Insert Node
+	     5.	Delete
+	     6.	Delete
+	     7.	Delete
+	     8.	Delete
+	     9.	Insert Bus
+	    10.	Insert Bus
+	    11.	Delete
+	    12.	Resize
+	    13.	Insert Node
+	    14.	Insert Node
+	    15.	Move
+	    16.	Move
+	    17.	Insert Bus
+	    18.	Insert Bus
+	    19.	Move
+	    20.	Move
+	    21.	Move
+	    22.	Move
+	    23.	Insert Node
+	    24.	Insert Node
+	    25.	Insert Node
+	    26.	Move
+	    27.	Move
+	    28.	Move
+	    29.	Properties
+	    30.	Properties
+	    31.	Properties
+	    32.	Properties
+	    33.	Move
+	    34.	Insert Symbol
+	    35.	Insert Symbol
+	    36.	Move
+	    37.	Move
+	    38.	Insert Symbol
+	    39.	Insert Symbol
+	    40.	Insert Symbol
+	    41.	Insert Symbol
+
+	Redo Commands
+	     1.	Insert Node
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+
+
+WED
+
+	Undo Commands
+	     1.	Edit Waveform
+	     2.	Edit Waveform
+	     3.	Edit Waveform
+	     4.	Insert Node or Bus
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulation Waveforms
+
+

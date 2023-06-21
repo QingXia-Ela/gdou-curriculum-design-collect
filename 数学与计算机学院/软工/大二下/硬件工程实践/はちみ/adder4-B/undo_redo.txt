@@ -1,0 +1,20 @@
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulator Summary
+	     2.	||Simulation Report||Legal Notice
+	     3.	||Simulation Report||Flow Summary
+	     4.	||Simulation Report||Flow Settings
+	     5.	||Simulation Report||Simulator||Simulator Summary
+	     6.	||Simulation Report||Simulator||Simulator Settings
+	     7.	||Simulation Report||Simulator||Simulation Waveforms
+	     8.	||Simulation Report||Simulator||Simulation Coverage||Coverage Summary
+	     9.	||Simulation Report||Simulator||Simulation Coverage||Missing 0-Value Coverage
+	    10.	||Simulation Report||Simulator||Simulation Coverage||Missing 1-Value Coverage
+	    11.	||Simulation Report||Simulator||Simulation Coverage||Complete 1/0-Value Coverage
+	    12.	||Simulation Report||Simulator||Simulation Coverage||Coverage Summary
+	    13.	||Simulation Report||Simulator||Simulator Messages
+	    14.	||Simulation Report||Simulator||Simulator INI Usage
+	    15.	||Simulation Report||Simulator||Simulation Waveforms
+
+
