@@ -20,7 +20,6 @@
 
 ## 其他
 
-- 关注嘉然喵，不看嘉然的人有难了，他只能度过一个注定失败的人生😤 https://space.bilibili.com/672328094
 - 关注 taffy 喵，关注 taffy 谢谢喵。雏草姬都是很厉害的人 https://space.bilibili.com/1265680561
 - 关注雨纪喵，关注雨纪谢谢喵，她长得好可爱，不看雨纪的人就跟学线性代数不学线性空间一样肤浅😋 https://space.bilibili.com/1932862336/
 - 关注步玎喵，给步玎点点关注谢谢喵。关注步玎，高数满分捏 https://space.bilibili.com/416622817
