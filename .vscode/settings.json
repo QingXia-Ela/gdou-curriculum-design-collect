@@ -6,6 +6,8 @@
     "*.html": "html",
     "*.md": "markdown",
     "*.mdx": "mdx",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "new": "cpp"
   }
 }
