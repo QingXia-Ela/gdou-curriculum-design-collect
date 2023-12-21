@@ -10,3 +10,6 @@
 [submodule "数学与计算机学院/软工/大二上/java五子棋联网对战/Flame-Y"]
 	path = 数学与计算机学院/软工/大二上/java五子棋联网对战/Flame-Y
 	url = https://github.com/Flame-Y/fivechess.git
+[submodule "数学与计算机学院/软工/大二上/java五子棋联网对战/QingXia-Ela"]
+	path = 数学与计算机学院/软工/大二上/java五子棋联网对战/QingXia-Ela
+	url = https://github.com/QingXia-Ela/five-chess-java.git
