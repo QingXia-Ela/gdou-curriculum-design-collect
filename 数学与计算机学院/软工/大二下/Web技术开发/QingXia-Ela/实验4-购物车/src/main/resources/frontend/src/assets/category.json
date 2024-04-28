@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Left 会社 - 白色相簿专栏展示",
+    "background": "",
+    "items": [
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "name": "极限竞速 - 地平线专区",
+    "background": "",
+    "items": [
+      100,
+      101
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Yuzusoft专区",
+    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2510810/page_bg_generated_v6b.jpg",
+    "items": [
+      1000,
+      1001,
+      1002
+    ]
+  },
+  {
+    "id": 1919810,
+    "name": "命运2专区",
+    "background": "",
+    "items": [
+      114514
+    ]
+  }
+]

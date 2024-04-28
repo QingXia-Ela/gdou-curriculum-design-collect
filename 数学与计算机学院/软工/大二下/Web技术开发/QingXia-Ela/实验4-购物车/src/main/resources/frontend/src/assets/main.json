@@ -1,0 +1,179 @@
+[
+  {
+    "id": 0,
+    "name": "Left 会社 - 白色相簿专栏展示",
+    "background": "",
+    "items": [
+      {
+        "id": 0,
+        "categoryId": 0,
+        "name": "白色相簿：编缀的冬日回忆",
+        "price": "¥ 108.00",
+        "description": "由AQUAPLUS呈献，在日本拥有顶级人气的恋爱冒险游戏系列。 《白色相簿：编缀的冬日回忆》是一个描绘了各种形式的恋爱的爱情故事。以其独特的剧情和迷人的角色而获得人气，并于2009年改编成动漫作品。编缀而成的冬日相簿，如此雪白而凄美—— ",
+        "date": "2023 年 8 月 4 日",
+        "developer": "AQUAPLUS",
+        "publisher": "DMM GAMES",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2432110/header.jpg"images": [{
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2432110/ss_1902e6447d55746b5831eb4c92e4161af4385b6d.1920x1080.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2432110/ss_476466ae083afe8167ee6ae3c6da8102008a3fb0.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2432110/ss_7499f463d4b993edb34ad5cc6523955a92792b4f.600x338.jpg"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Nanyano实体商品专区",
+  "background": "",
+  "items": [
+    {
+      "id": 10,
+      "categoryId": 1,
+      "name": "NACHONEKO ゲーミングマウスパッド",
+      "price": "¥ 38.00",
+      "description": "◼︎商品详细\n尺寸: 约 W800mm × H300mm\n材质: 尼龙橡胶\n厚度: 4 mm\n防水处理: 有\n锁边: 有",
+      "images": [
+        {
+          "url": "https://cdn.shopifycdn.net/s/files/1/0608/1973/4744/files/3c2fc567c824c5a2c0b4645e8482d106_1024x1024@2x.png?v=1691139506"
+        },
+        {
+          "url": "https://cdn.shopifycdn.net/s/files/1/0608/1973/4744/files/2765eeec28d19d510f5d1517fd423a49_1024x1024@2x.png?v=1691139506"
+        },
+        {
+          "url": "https://cdn.shopifycdn.net/s/files/1/0608/1973/4744/files/5a9520dfbdb38ffedd3102ed736bdfca_1024x1024@2x.png?v=1691139506"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": 2,
+  "name": "极限竞速 - 地平线专区",
+  "background": "",
+  "items": [
+    {
+      "id": 100,
+      "categoryId": 2,
+      "name": "极限竞速：地平线 4",
+      "price": "¥ 188.00",
+      "description": "在世界上最盛大的汽车嘉年华上，不断变化的赛季改变着一切。单枪匹马或者与其他人组队，在一个共享开放世界中探索美丽而富有历史气息的英国。收集、改装和驾驶超过 450 辆车辆。尽情竞速、表演特技、创造和探索：选择您专属的方式来成为地平线中的超级巨星。 ",
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "images": [
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293830/ss_e872c3153b246b4f595d7106976c6e63d4185c45.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293830/ss_6aff9bfcaeb460988148efe3c83448fd93e6641a.1920x1080.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293830/ss_c0271116cbfb7be15679861e4b5d0549826dbb04.1920x1080.jpg"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "categoryId": 2,
+      "name": "极限竞速：地平线 5",
+      "price": "¥ 248.00",
+      "description": "您的“终极地平线冒险”即将开启！驾驶世界名车，探索墨西哥充满活力的户外景色，享受无拘无束又充满乐趣的驾驶体验。在终极地平线拉力赛中征服富有挑战的塞拉努埃瓦。需拥有《极限竞速：地平线 5》才能体验，扩充内容需另购。",
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "images": [
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_733100a0e305025cfea4797c14cb55a9e2673521.600x338.jpg"
+        },
+        {
+          "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_4f2da231c28c5cb6a1ed4f62aaad6f51ca4a5c05.600x338.jpg"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": 3,
+  "name": "Yuzusoft专区",
+  "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2510810/page_bg_generated_v6b.jpg",
+  "items": [
+    {
+      "id": 1000,
+      "categoryId": 3,
+      "name": "魔女的夜宴",
+      "price": "¥ 88.00",
+      "description": "《魔女的夜宴》是日本超人气美少女游戏品牌YUZUSOFT（柚子社）的经典名作。女主角绫地宁宁由当红声优桐谷华配音，是该社历代作品中最具代表性的女主角之一。国际中文版拥有超越原版的1920X1080的高清画质。本作也曾在美少女游戏大赏和萌系游戏大赏中斩获众多奖项。 ",
+      "date": "2022 年 3 月 25 日",
+      "developer": "Yuzusoft",
+      "publisher": "HIKARI FIELD",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458530/header.jpg"images": [{
+        "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458530/ss_4367b4f226e17f18b5b9f71a7af227b561806690.1920x1080.jpg"
+      },
+      {
+        "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458530/ss_d7a01499c1ba980d356758c3e172a7da4e256506.1920x1080.jpg"
+      },
+      {
+        "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458530/ss_bcdb988c90a0aa81fc1150eaf7fa1c0ca01618bc.1920x1080.jpg"
+      },
+      {
+        "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458530/ss_ca3353ca61039c0e9d1647f41e066a38c217f353.1920x1080.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "categoryId": 3,
+    "name": "星光咖啡馆与死神之蝶",
+    "price": "¥ 88.00",
+    "description": "《星光咖啡馆与死神之蝶》是日本美少女游戏品牌Yuzusoft（柚子社）制作的恋爱题材作品。本作仍由创作多款人气作品的柚子社主创团队担当制作，发售后在美少女游戏大赏中囊括了囊括了综合、图像、音乐、剧本、影片、角色等诸多奖项。游戏主题曲《Smiling-Swinging!!》由人气歌姬米仓千寻献唱。 ",
+    "date": "2022 年 3 月 25 日",
+    "publisher": "NekoNyan Ltd., HIKARI FIELD",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1829980/header_schinese.jpg"images": [{
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1829980/ss_fd1b52cb5cb11da9e2d3be55727c1b426ff0c8ea.1920x1080.jpg"
+    },
+    {
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1829980/ss_68fff9c89b141a5d2267c24b5cfd66a8e1f2a2df.1920x1080.jpg"
+    },
+    {
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1829980/ss_d7d6cb731910936fb1d479d43675f90d18cacc40.1920x1080.jpg"
+    },
+    {
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1829980/ss_e4e5e72b13a684850a14645e9df6e7d97e3472ff.1920x1080.jpg"
+    }
+  ]
+},
+{
+  "id": 1002,
+  "categoryId": 3,
+  "name": "千恋 * 万花",
+  "price": "¥ 88.00",
+  "description": "gal界原神，启动！",
+  "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144400/header_schinese.jpg"images": [{
+    "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144400/ss_4a46863d9f7bdb58dfa22b15b25845b2b02d5707.1920x1080.jpg"
+  },
+  {
+    "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144400/ss_47f41329f47bf3ba7a23a4efd26e90033b153963.1920x1080.jpg"
+  },
+  {
+    "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144400/ss_6910d415d71b11829fb7af79c505b390346de9d6.1920x1080.jpg"
+  },
+  {
+    "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144400/ss_ee496a558fd3bb7967414927b4a87e6a06441095.1920x1080.jpg"
+  }
+]
+}
+]
+}
+]
