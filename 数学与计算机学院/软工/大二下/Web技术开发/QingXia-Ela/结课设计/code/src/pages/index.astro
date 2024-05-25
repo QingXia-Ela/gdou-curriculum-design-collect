@@ -1,0 +1,77 @@
+---
+import BasicLayout from "@/layout/BasicLayout.astro";
+import Swiper from "./_index/Swiper.vue";
+import { getCollection } from "astro:content";
+
+const collections = await getCollection("news");
+---
+
+<BasicLayout>
+  <div class="w-full h-44 md:h-[70vh]">
+    <Swiper
+      client:load
+      datas={collections
+        .filter((c) => c.data.cover)
+        .map((c) => ({
+          img: c.data.cover,
+          href: `/news/${c.slug}`,
+        }))}
+    />
+  </div>
+  <div class="indexCBox indexCBox2">
+    <div class="indexOverC">
+      <div class="indexOverCL zhxwYdTabUl active">
+        <div class="zhxwPadding">
+          <div class="indexTitle1">
+            <a href="/news">综合新闻</a><i></i>
+          </div>
+          <ul class="zhxwUl">
+            {
+              collections.map(({ data: { description, title }, slug }) => (
+                <li>
+                  <div class="zhxwTime">
+                    <p>01</p>
+                    <span>2024-05</span>
+                  </div>
+                  <div class="zhxwRBox">
+                    <a href={`/news/${slug}`} target="_blank" title={title}>
+                      {title}
+                    </a>
+                    <p>{description}</p>
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+          <a class="mobileMore" href="/news">查看更多</a>
+        </div>
+      </div>
+      <div class="indexOverCR zhxwYdTabUl">
+        <div class="zhxwPadding">
+          <div class="indexTitle2">
+            <a href="/news">研制进展</a><i></i>
+          </div>
+          <ul class="zhxwUl">
+            {
+              collections.map(({ data: { description, title }, slug }) => (
+                <li>
+                  <div class="zhxwTime">
+                    <p>01</p>
+                    <span>2024-05</span>
+                  </div>
+                  <div class="zhxwRBox">
+                    <a href={`/news/${slug}`} target="_blank" title={title}>
+                      {title}
+                    </a>
+                    <p>{description}</p>
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+          <a class="mobileMore" href="/news">查看更多</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BasicLayout>

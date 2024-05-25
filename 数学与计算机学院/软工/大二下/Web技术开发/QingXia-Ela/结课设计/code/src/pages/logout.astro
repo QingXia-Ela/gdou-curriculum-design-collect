@@ -1,0 +1,29 @@
+---
+import { LOGIN_SESSION } from "@/constants";
+import BasicLayout from "@/layout/BasicLayout.astro";
+
+Astro.cookies.delete(LOGIN_SESSION);
+
+Astro.redirect("/");
+---
+
+<BasicLayout>
+  <div class="w-full h-[70vh] flex justify-center items-center">
+    <div class="w-1/2 h-2/3 flex justify-center items-center bg-white">
+      退出成功，<span id="time">3</span>秒后返回首页
+    </div>
+  </div>
+</BasicLayout>
+
+<script>
+  const time = document.getElementById("time")!;
+  let i = 3;
+  setInterval(() => {
+    if (i === 0) {
+      window.location.href = "/";
+    } else {
+      time.innerHTML = i as unknown as string;
+      i--;
+    }
+  }, 1000);
+</script>

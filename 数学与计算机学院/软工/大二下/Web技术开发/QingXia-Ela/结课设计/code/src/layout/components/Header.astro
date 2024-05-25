@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+import header_logo from "@/assets/logo/header_logo.png";
+import formatTime from "@/utils/formatTime";
+const { isLogin } = Astro.locals;
+---
+
+<header class="header">
+  <a class="headerLogo" href="/"><Image src={header_logo} alt="logo" /></a>
+  <div class="headerRBox">
+    <div class="indexSearchBox">
+      {
+        isLogin ? (
+          <>
+            <div class="whitesapce-none">
+              欢迎您：{isLogin && Astro.locals.user.name}。
+            </div>
+            <div class="whitesapce-none">上次登录:</div>
+            <div class="whitesapce-none">
+              {isLogin &&
+                formatTime(
+                  Astro.locals.user.lastLoginTime.lastLoginTime,
+                  "yyyy-MM-dd HH:mm:ss"
+                )}
+            </div>
+            <a href="/logout" class="whitesapce-none underline">
+              退出登录
+            </a>
+          </>
+        ) : (
+          <a href="/login" style="text-decoration: underline;">
+            登录
+          </a>
+        )
+      }
+    </div>
+  </div>
+</header>
+
+<script></script>
+
+<style>
+  .whitesapce-none {
+    white-space: nowrap;
+  }
+  @media screen and (max-width: 768px) {
+    .indexSearchBox {
+      flex-direction: column;
+    }
+  }
+</style>

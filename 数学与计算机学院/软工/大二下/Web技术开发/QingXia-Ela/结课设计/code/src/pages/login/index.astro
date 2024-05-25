@@ -1,0 +1,14 @@
+---
+import BasicLayout from "@/layout/BasicLayout.astro";
+import Login from "./_components/Login.vue";
+
+const { isLogin } = Astro.locals;
+
+if (isLogin) {
+  return Astro.redirect("/");
+}
+---
+
+<BasicLayout bgUrl="/login_bg.jpg">
+  <Login client:load />
+</BasicLayout>

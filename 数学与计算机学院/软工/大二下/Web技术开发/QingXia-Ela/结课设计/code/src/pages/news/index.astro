@@ -1,0 +1,39 @@
+---
+import BasicLayout from "@/layout/BasicLayout.astro";
+import { getCollection } from "astro:content";
+import formatTime from "@/utils/formatTime";
+const { isLogin } = Astro.locals;
+
+if (!isLogin) {
+  return Astro.redirect("/no-premission");
+}
+
+const collection = await getCollection("news");
+---
+
+<BasicLayout>
+  <div class="mainCon zhxw my-8">
+    <div class="right">
+      <div class="crumbs">
+        <span>当前位置:</span>
+        <a href="../../" title="首页" class="CurrChnlCls">首页</a
+        >&nbsp;&gt;&nbsp;<a href="../" title="新闻中心" class="CurrChnlCls"
+          >新闻中心</a
+        >
+      </div>
+      <div class="Btitle mobile_none">综合新闻</div>
+      <div class="RCon">
+        <ul id="list">
+          {
+            collection.map(({ data: { title, date }, slug }) => (
+              <li>
+                <a href={`/news/${slug}`}>{title}</a>
+                <span class="pc_none">{formatTime(date, "yyyy-MM-dd")}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</BasicLayout>

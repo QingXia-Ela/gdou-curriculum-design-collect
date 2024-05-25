@@ -1,0 +1,86 @@
+---
+import BasicLayout from "@/layout/BasicLayout.astro";
+import { getEntryBySlug } from "astro:content";
+import "github-markdown-css/github-markdown-light.css";
+import formatTime from "@/utils/formatTime";
+
+const { isLogin } = Astro.locals;
+
+if (!isLogin) {
+  return Astro.redirect("/no-premission");
+}
+
+const { id } = Astro.params;
+
+const a = await getEntryBySlug("news", id as string);
+
+const res = await getEntryBySlug("news", id as string);
+
+if (!res) {
+  return Astro.redirect("/404");
+}
+
+const {
+  slug,
+  data: { title, date, source },
+  render,
+} = res;
+
+const { Content } = await render();
+---
+
+<BasicLayout>
+  <div class="wrapper w-full">
+    <div class="mainCon wzxq mx-auto bg-white">
+      <div class="title">{title}</div>
+      <div class="info">
+        <div class="pubDate">
+          发布日期: <span>{formatTime(new Date(date), "yyyy-MM-dd")}</span>
+        </div>
+        <div class="source">信息来源: <span>{source}</span></div>
+        <div class="fontS mobile_none">
+          字号:<span class="fontSpan">[大]</span>
+          <span class="fontSpan">[中]</span>
+          <span class="fontSpan active">[小]</span>
+          <span onclick="window.print()">[打印]</span>
+        </div>
+      </div>
+      <article
+        id="dochtmlcon"
+        class="markdown-body article h-full min-h-[700px]"
+        style="font-size: 18px;"
+      >
+        <Content />
+      </article>
+    </div>
+  </div>
+</BasicLayout>
+
+<script>
+  function removeActive() {
+    document.querySelectorAll(".fontSpan").forEach((item) => {
+      item.classList.remove("active");
+    });
+  }
+
+  const dochtmlcon = document.getElementById("dochtmlcon")!;
+  document.querySelectorAll(".fontSpan").forEach((item) => {
+    item!.addEventListener("click", () => {
+      removeActive();
+      item.classList.add("active");
+      switch (item.textContent!.trim()) {
+        case "[大]":
+          dochtmlcon.style.fontSize = "28px";
+          break;
+
+        case "[中]":
+          dochtmlcon.style.fontSize = "22px";
+          break;
+
+        case "[小]":
+          dochtmlcon.style.fontSize = "18px";
+          break;
+      }
+    });
+  });
+</script>
